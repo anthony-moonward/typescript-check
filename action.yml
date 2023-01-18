@@ -1,0 +1,6 @@
+name: 'typescript-check'
+description: 'This action will make sure that your code does not have any typescript errors and that your tsconfig.json is configured correctly.'
+author: 'Anthony Carroll'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
